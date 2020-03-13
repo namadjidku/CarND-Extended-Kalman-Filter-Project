@@ -1,5 +1,6 @@
+[image1]: images/rmse.jpeg 
+
 # Extended Kalman Filter
-Self-Driving Car Engineer Nanodegree Program
 
 In this project you will utilize a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. Files which were modified to accomplish the project are src/FusionEKF.cpp, src/FusionEKF.h, kalman_filter.cpp, kalman_filter.h, tools.cpp, and tools.h. 
 
@@ -31,3 +32,5 @@ RMSE values are computed using the provided ground truth (true position and spee
 1. Make a build directory: `mkdir build && cd build`
 2. Compile: `cmake .. && make` 
 3. Run it: `./ExtendedKF `
+
+![alt text][image1]   
