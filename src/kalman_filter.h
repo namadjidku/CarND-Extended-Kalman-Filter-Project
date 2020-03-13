@@ -2,6 +2,7 @@
 #define KALMAN_FILTER_H_
 
 #include "Eigen/Dense"
+#include <iostream>
 
 class KalmanFilter {
  public:
@@ -39,6 +40,8 @@ class KalmanFilter {
    * @param z The measurement at k+1
    */
   void Update(const Eigen::VectorXd &z);
+  
+  void update(const Eigen::VectorXd &y);
 
   /**
    * Updates the state by using Extended Kalman Filter equations
