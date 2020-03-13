@@ -1,4 +1,4 @@
-[image1]: images/rmse.jpeg 
+[image1]: images/rmse.jpg 
 
 # Extended Kalman Filter
 
@@ -27,7 +27,7 @@ OUTPUT: values provided by the c++ program to the simulator
 
 RMSE values are computed using the provided ground truth (true position and speed of the bycicle).
 
-## Building Instructions
+#### Building Instructions
 
 1. Make a build directory: `mkdir build && cd build`
 2. Compile: `cmake .. && make` 
